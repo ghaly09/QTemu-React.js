@@ -1,6 +1,12 @@
-# Start React App
+# QTemu React Simple Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First Step for learing React.js about JSX, Props and State.
+I try to practice it by making a simple website titled QTemu
+I'll update my Project for next after learning more about React.js
+
+This is the Reasult of QTemu Website:
+
+![QTemu](./src/assets/QTemu%20.gif)
 
 ## Available Scripts
 
