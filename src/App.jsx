@@ -1,7 +1,7 @@
 import React from "react";
 // import "./App.css";
-import Navbar from "./components/Navbar";
-import UseCard from "./components/UserCard";
+import Navbar from "./components/organisms/Navbar";
+import UseCard from "./components/templates/UserCard";
 import AboutMeet from "./components/AboutMeet";
 import Members from "./components/Members";
 import MeetCards from "./components/MeetCards";
