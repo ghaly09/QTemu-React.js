@@ -6,15 +6,14 @@ import AboutMeet from "./components/AboutMeet";
 import Members from "./components/Members";
 import MeetCards from "./components/MeetCards";
 import NextMeetup from "./components/NextMeetup";
+import Footer from "./components/organisms/Footer";
 
 // import {Navbar, UseCard, AboutMeet, Members, MeetCards, NextMeetup} from "./components"
 
 function App() {
   return (
     <div className="container mx-auto my-3 sm:my-10 rounded-lg shadow-xl ">
-      <div className="sticky rounded-t-lg bg-gradient-to-r from-[#155799] to-[#159957]">
-        <Navbar />
-      </div>
+      <Navbar />
       <UseCard />
       <div className="bg-white rounded-lg">
         <AboutMeet />
@@ -62,14 +61,7 @@ function App() {
             />
           </div>
         </section>
-        <hr class="my-6 border-blueGray-300" />
-        <div class="flex flex-wrap items-center md:justify-between justify-center">
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="pb-5 text-sm text-blueGray-500 font-semibold py-1">
-              Copyright &copy; 2023 by Rachmat Ghaly
-            </div>
-          </div>
-        </div>
+        <Footer />
       </div>
     </div>
   );
